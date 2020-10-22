@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/teresaheidt/workout-tracker#readme",
   "dependencies": {
-    "mongodb": "^3.6.2"
+    "composer": "^4.1.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "file:node_modules/mongoose"
   }
 }
