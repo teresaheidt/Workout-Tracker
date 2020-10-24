@@ -1,10 +1,11 @@
 {
   "name": "workout-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Table of Contents 1. The reson for the app 2. How the app works 3. Technologies used 4. Imgs 5. Links",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,8 @@
   },
   "homepage": "https://github.com/teresaheidt/workout-tracker#readme",
   "dependencies": {
-    "composer": "^4.1.0",
-    "mongodb": "^3.6.2",
-    "mongoose": "file:node_modules/mongoose"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10",
+    "morgan": "^1.10.0"
   }
 }
