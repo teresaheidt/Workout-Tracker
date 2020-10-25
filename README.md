@@ -14,7 +14,7 @@ A device that tracks multiple daily workouts, on any given day. Not only can the
 When the user loads the page, they are given the option to create a new workout OR continue their last workout. On a STATS page, the user can view multiple exercises and combined weight.
 
 ## Technologies used
-HTML, Javascript, Node.js, MongoDB and deployed with Heroku.
+HTML, Javascript, Node.js, MongoDB and deployed with Heroku and Atlas.
 
 ## Imgs
 

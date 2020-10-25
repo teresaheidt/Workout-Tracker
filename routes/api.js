@@ -7,15 +7,17 @@ router.post("/api/workouts", (req, res) => {
       res.json(workout);
     })
     .catch(err => {
+      console.log(err)
       res.status(400).json(err);
     });
 });
 
 router.put("/api/workouts/:id", ({ body, params }, res) => {
-  Workout.findByIdAndUpdate(params.id, { $push: { exercises: body } }, { new: true, runValidators: true })
+  Workout.findByIdAndUpdate(params.id, { $push: { exercise: body } }, { new: true, runValidators: true })
     .then(workout => {
       res.json(workout);
     }).catch(err => {
+      console.log(err)
       res.status(400).json(err);
     });
 });
@@ -37,6 +39,7 @@ router.get("/api/workouts", (req, res) => {
       return res.json(workout);
     })
     .catch(err => {
+      console.log(err)
       return res.status(400).json(err);
     });
 });
