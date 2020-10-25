@@ -17,6 +17,11 @@ When the user loads the page, they are given the option to create a new workout 
 HTML, Javascript, Node.js, MongoDB and deployed with Heroku and Atlas.
 
 ## Imgs
+Welcome to the mainpage!
+![screenshot](public/imgs/homepage.png)
+
+This is the Stats page!
+![screenshot](public/imgs/stats.png)
 
 ## Links
 [Link to Github](https://github.com/teresaheidt/Workout-Tracker.git)
