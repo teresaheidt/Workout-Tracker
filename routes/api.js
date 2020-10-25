@@ -34,10 +34,10 @@ router.get("/api/workouts", (req, res) => {
   Workout.find({})
     .sort({ day: -1 })
     .then(workout => {
-      res.json(workout);
+      return res.json(workout);
     })
     .catch(err => {
-      res.status(400).json(err);
+      return res.status(400).json(err);
     });
 });
 
