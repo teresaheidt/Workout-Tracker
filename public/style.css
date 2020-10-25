@@ -16,6 +16,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.stats {
+  color: #931158;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
 nav {
   background-color: #931158;
   color: #ffffff;
